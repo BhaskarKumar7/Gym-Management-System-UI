@@ -1,0 +1,33 @@
+    /* Custom styling for navbar */
+    .navbar {
+        background-color: #343a40;
+      }
+      .navbar-brand, .nav-link {
+        color: white !important;
+      }
+      .navbar-brand:hover, .nav-link:hover {
+        color: #f8f9fa !important;
+      }
+      .dropdown-menu {
+        background-color: #495057;
+      }
+      .dropdown-item {
+        color: white;
+      }
+      .dropdown-item:hover {
+        background-color: #343a40;
+        color: white;
+      }
+      /* Right-aligned dropdown */
+      .navbar .dropdown-menu-end {
+        right: 0;
+        left: auto;
+      }
+      /* Media query for responsiveness */
+      @media (max-width: 992px) {
+        .navbar .dropdown-menu-end {
+          right: auto;
+          left: auto;
+        }
+      }
+  
